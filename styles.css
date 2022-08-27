@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@600&family=Comfortaa:wght@300;700&family=Source+Sans+Pro:wght@400;600&display=swap');
+*{
+font-family: 'Anek Telugu', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+}
+input{
+  
+  padding:5px;
+  margin: 10px;
+}
+h1{
+  width: 100%;
+  height: 120px;
+  background-color: rgb(64, 60, 60);
+  color: white;
+  font-size: small;
+  padding: 3px;
+}
+li{
+  display: inline-table;
+  line-height: 100px;
+  color: white;
+  font-size: large;
+}
+a{
+  color: white;
+  margin: 10px;
+}
+a:hover{
+  color: rgb(142, 187, 187);
+  transition: 0ms;
+  padding: 15px;
+}
