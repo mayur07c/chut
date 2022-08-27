@@ -5,12 +5,30 @@ counsellors = [
       profession:"Architect",
       Time_slot:"3:30 to 5:30"
   },
+  {
+    Name:"Bob",
+    phone_number:1029384576,
+    profession:"architect",
+    Time_slot:"3:30 to 5:30"
+},
   {   
       Name:"Alice",
       phone_number: 1234567890,
       profession:"Engineer",
       Time_slot:"3:30 to 5:30"
   },
+  {   
+    Name:"Alice",
+    phone_number: 1234567890,
+    profession:"engineer",
+    Time_slot:"3:30 to 5:30"
+},
+{
+  Name:"Lol",
+  phone_number: 124567890,
+  profession:"dictator",
+  Time_slot:"3:30 to 5:30"
+},
   {
       Name:"Lol",
       phone_number: 124567890,
@@ -20,7 +38,7 @@ counsellors = [
 ]
 
 let x = Math.floor((Math.random() * counsellors.length) + 0); 
-var Name = document.getElementsByName('Name').value;
+var Name = document.getElementsByName('Name');
 var Phone_Number = document.getElementsByName('Phone_Number');
 var Pick_Slot = document.getElementsByName("Datetime");
 var Counsellor_Name = document.getElementsByName("Counsellor_Name")
